@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
   <div className="w-full bg-customGray h-96 flex justify-between items-center">
@@ -37,13 +39,31 @@ export default function Footer() {
   </h1>
   <div className="flex space-x-5">
    <a href="" >
-    <img src="/images/fb-icon2.png"/>
+    <Image 
+    src="/images/fb-icon2.png"
+    alt="social icon"
+    width={47}
+    height={47}
+     >
+    </Image>
    </a>
    <a href="" >
-    <img src="/images/youtube-icon1.png" />
+    <Image
+     src="/images/youtube-icon1.png" 
+     alt="social icons"
+     width={40}
+     height={40}
+    >
+    </Image>
    </a>
    <a href="" >
-    <img src="/images/insta-icon.png" />
+    <Image
+     src="/images/insta-icon.png" 
+     alt="social icons"
+     width={40}
+     height={40}
+      >
+    </Image>
    </a>
    
 
